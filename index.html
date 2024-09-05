@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox_layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Flexbox_Implementation-->
+    <div class="Layout">
+        <!--Flexbox_Navigation_Bar-->
+        <div class="links">
+            <a href="#" class="items">Home</a>
+            <a href="#" class="items">About CSS</a>
+            <a href="#" class="items">Services</a>
+        </div>
+        <!--Main_Content_Area-->
+        <div class="Main_Content_Area">
+            <!--Image in the Main_Content_Area-->
+            <div class="flex_image"><img src="./Flexbox.jpeg" alt="flexbox_image"></div>
+                <br></br>
+                <!--Text in the Main_Content_Area-->
+                    <div class="text"><p>Flexbox, short for "Flexible Box Layout," is a CSS layout module designed to help create complex, responsive layouts with ease. Here’s a quick summary of its key concepts:
+                        <br></br>
+                        1. <b>Flex Container and Flex Items:</b> The flex container is the parent element that holds flex items (its children). Setting the container’s `display` property to `flex` or `inline-flex` enables flexbox on it.
+                        <br></br>
+                        2. <b>Main Axis and Cross Axis:</b> Flexbox lays out items along two axes:
+                           - Main Axis: Defined by `flex-direction` (e.g., `row` or `column`).
+                           - Cross Axis: Perpendicular to the main axis.
+                        <br></br>
+                        3.<b> Flex Direction :</b> Defines the direction flex items are placed in the flex container. Options include `row`, `column`, `row-reverse`, and `column-reverse`.
+                        <br></br>
+                        4.<b>Justify Content:</b> Aligns flex items along the main axis. Values include `flex-start`, `center`, `space-between`, `space-around`, and `space-evenly`.
+                        <br></br>
+                        5. <b>Align Items:</b> Aligns flex items along the cross axis. Values include `flex-start`, `center`, `baseline`, `stretch`, and `flex-end`.
+                        <br></br>
+                        6.<b>Align Self:</b>Allows individual flex items to override the `align-items` value for their specific alignment on the cross axis.
+                        <br></br>
+                        7.<b>Flex Wrap:</b> Controls whether flex items should wrap onto multiple lines or stay in a single line. Values include `nowrap`, `wrap`, and `wrap-reverse`.
+                        <br></br>
+                        8.<b>Flex Flow:</b> A shorthand for `flex-direction` and `flex-wrap`.
+                        <br></br>
+                        9. <b>Flex Grow, Flex Shrink, and Flex Basis:</b>
+                         Control the size of flex items:
+                        <br></br>
+                           - Flex Grow Defines how much a flex item should grow relative to the rest.
+                           <br></br>
+                           - Flex Shrink: Defines how much a flex item should shrink relative to the rest.
+                           <br></br>
+                           - Flex Basis: Defines the initial size of a flex item before growing or shrinking.
+                           <br></br>
+                        10.<b>Align Content:</b>  Aligns flex lines within the flex container along the cross axis. It’s used when wrapping is enabled.
+                        <br></br>
+                        Flexbox simplifies the process of building flexible and responsive layouts by providing tools for distributing space and aligning items in complex ways.
+                        </p>
+                    </div>
+                    <br>
+                    <!--footer Sector-->
+            </div>
+        <footer class="footer">@2024. All rights reserved | Terms and Conditions</footer>
+    </div>  
+</body>
+</html>
