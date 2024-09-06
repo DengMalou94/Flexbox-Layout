@@ -11,23 +11,13 @@
 .links{
     display: flex;
     padding: 5px;
-    background-color:rgb(94, 41, 143);
+    background-color :rgb(68, 12, 96);
     justify-content: left;
-}
-/* Flex Container(Parent element) */
-.Main_Content_Area{
-    display: flex;
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(141, 45, 145);
-    flex-direction:column-reverse;
-    flex: 1;
 }
 .items{
     display: flex;
-    margin: 10px;
+    margin: 15px;
     padding: 15px;
-    background-color: rgb(76, 34, 116);
     text-decoration: none;
     color: rgb(252, 240, 255);
     font-size:larger;
@@ -35,11 +25,26 @@
     border-radius: 70px;
     align-items: flex-end;
     justify-content: flex-end;
+    
 
 }
+.items:hover{
+    background-color: rgb(43, 14, 69);
+}
+/* Flex Container(Parent element) */
+.Main_Content_Area{
+    display: flex;
+    background-color: rgba(229, 144, 229, 0.273);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(141, 45, 145);
+    flex-direction:column-reverse;
+    justify-content: center;
+    flex: 1;
+}
+
 .flex_image{
     display: inline-flex;
-    background-color: rgb(66, 34, 95);
+    background-color: rgb(68, 12, 96);
     justify-content: center;
 }
 /*footer with flexbox implemented*/
@@ -48,5 +53,5 @@
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    background-color: rgb(66, 34, 95);
+    background-color: rgb(68, 12, 96);
 }
